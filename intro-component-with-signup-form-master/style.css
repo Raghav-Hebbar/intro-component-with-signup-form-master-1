@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 2em;
+    padding: 2em;
+    
+
+}
+
+.container{
+    min-height:100%;
+    background:url(./images/bg-intro-desktop.png) rgba(253, 0, 106, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    padding: 2em;
+}
+
+.column{
+    margin: 2rem;
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-col{
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: left;
+    justify-content: left;
+    color: white;
+}
+
+.right-col {
+    text-align: center;
+}
+.card1 {
+    padding: 8px;
+    color:white ;
+    background: #5d54a3;
+    border-radius: 3px;
+    text-align: center;
+}
