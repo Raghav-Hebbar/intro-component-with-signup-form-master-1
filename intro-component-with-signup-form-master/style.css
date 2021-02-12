@@ -2,22 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1440px;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 2em;
-    padding: 2em;
-    
-
 }
 
 .container{
-    min-height:100%;
+    max-width:1000px;
     background:url(./images/bg-intro-desktop.png) rgba(253, 0, 106, 0.3);
     background-size:cover;
     background-blend-mode: multiply;
-    padding: 2em;
+    padding: 2.5rem 4rem 2.5rem 2rem;
+    margin:auto
 }
 
 .column{
@@ -27,6 +25,7 @@ body{
 }
 
 .left-col{
+    max-width: 500px;
     margin-top: 5rem;
     padding: 2rem;
     text-align: left;
@@ -34,13 +33,83 @@ body{
     color: white;
 }
 
-.right-col {
+.left-col h1{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-col{
+    max-width: 500px;
+}
+
+.brief-explanation{
+    margin-top: 1rem;
+    font-size: smaller;
+}
+
+.card1{
+    padding: 12px;
+    color:white ;
+    background: hsl(248, 32%, 49%);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.8rem;  
+}
+
+.card1 span{
+    margin-right: 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.card2{
+    padding: 1.3rem;
+    background: white;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.intro{
+    padding: 0;
+    margin: 0;
     text-align: center;
 }
-.card1 {
-    padding: 8px;
-    color:white ;
-    background: #5d54a3;
-    border-radius: 3px;
+
+input[type=text], select {
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 95%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 95%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: green;
+    }
+
+.note{
     text-align: center;
+    font-size: 0.5rem;
+    color: gray;
+}
+  
+.note span{
+    color: hotpink;
 }
