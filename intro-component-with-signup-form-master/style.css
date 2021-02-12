@@ -6,16 +6,20 @@
 }
 
 body{
+    width: 100%;
+    margin: auto;
     font-family: 'Poppins', sans-serif;
+    padding-top: 3rem;
+    
 }
 
 .container{
+    margin:auto;
     max-width:1000px;
     background:url(./images/bg-intro-desktop.png) rgba(253, 0, 106, 0.3);
     background-size:cover;
     background-blend-mode: multiply;
-    padding: 2.5rem 4rem 2.5rem 2rem;
-    margin:auto
+    padding: 2.5rem 5rem 2.5rem 3rem;
 }
 
 .column{
